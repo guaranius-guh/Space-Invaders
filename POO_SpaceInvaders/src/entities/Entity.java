@@ -15,8 +15,6 @@ public class Entity {
 
     protected BufferedImage sprite;
 
-    public static Random rand = new Random();
-
     public Entity(double x, double y, int width, int height, double speed, BufferedImage sprite) {
         this.x = x;
         this.y = y;
